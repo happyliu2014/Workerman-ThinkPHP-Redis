@@ -13,7 +13,8 @@ ThinkPHP版本：3.2.3
 #安装说明
 
 上传到linux服务器WEB目录，可以通过URL地址访问前端测试
-http://xxxx/index.php
+http://xxxx/test.php
+也可以直接使用workerman官方的聊天WEB
 
 #运行后端框架:
 ./wmchat/php start.php start
