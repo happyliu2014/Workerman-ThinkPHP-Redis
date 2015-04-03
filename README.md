@@ -17,7 +17,8 @@ http://xxxx/test.php
 也可以直接使用workerman官方的聊天WEB
 
 #运行后端框架:
-./wmchat/php start.php start
+cd /wmchat/
+php start.php start
 
 
 #使用方法
