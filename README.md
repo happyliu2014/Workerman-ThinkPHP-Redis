@@ -2,9 +2,9 @@
 Workerman+ThinkPHP+Redis
 
 ## 程序说明
-此程序由workerman-chat改写；
-workerman版本：3.0.7
-ThinkPHP版本：3.2.3
+* 此程序由workerman-chat改写；
+* workerman版本：3.0.7
+* ThinkPHP版本：3.2.3
 
 ## 服务器环境
 * 1.能够运行workerman框架
@@ -25,7 +25,7 @@ http://xxxx/test.php
 
 ## 使用方法
 * 1.在Event.php中或其他业务中使用ThinkPHP
-R('Home/Index/index'); //传递参数请查看TP手册R方法
+<code> R('Home/Index/index'); </code> //传递参数请查看TP手册R方法
 
 * 2.在Event.php或其他业务中使用Redis
-RedisDb::instance('redis')->get('key');
+<code> RedisDb::instance('redis')->get('key');</code>
