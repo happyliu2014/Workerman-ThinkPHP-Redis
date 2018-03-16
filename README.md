@@ -16,7 +16,7 @@ ThinkPHP版本：3.2.3
 http://xxxx/test.php
 也可以直接使用workerman官方的聊天WEB
 
-## 运行后端框架:
+## 服务器运行
 
 ```shell
   cd /wmchat/
